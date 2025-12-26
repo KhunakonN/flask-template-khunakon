@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+    <hr>
+    {% for food in foods %}
+            <h3>{{ loop.index }}.  {{ food }}</h3>
+    {% endfor %}
+{% endblock %}
