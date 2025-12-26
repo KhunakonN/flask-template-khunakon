@@ -33,7 +33,7 @@ def fav_food():
 
 @app.route('/favorite/movie')
 def fav_movie():
-    movies = ['Godzili2014','How to train your dragon 2','How to train your dragon 3','How to train your dragon 1','Rampage']
+    movies = ['Godzila2014','How to train your dragon 2','How to train your dragon 3','How to train your dragon 1','Rampage']
     title='Favorite Movies Page'
     return render_template('favorite_movie.html',
                            title=title,
